@@ -1,8 +1,8 @@
 import { deleteVocab, getVocab, getSingleVocab } from '../api/vocabData';
 import { showVocab } from '../pages/vocab';
 import addVocabForm from '../components/forms/addVocabForm';
-// import viewVocab from '../pages/viewVocab';
-// import getVocabDetails from '../api/vocabDetails';
+import viewVocab from '../pages/viewVocab';
+import VocabDetails from '../api/vocabDetails';
 
 const domEvents = (user) => {
   document.querySelector('#main-container').addEventListener('click', (e) => {
@@ -21,20 +21,18 @@ const domEvents = (user) => {
     if (e.target.id.includes('add-vocab-btn')) {
       addVocabForm(user.uid);
     }
-
     // TODO: CLICK EVENT EDITING/UPDATING A VOCAB
     if (e.target.id.includes('edit-vocab-btn')) {
       const [, firebaseKey] = e.target.id.split('--');
 
       getSingleVocab(firebaseKey).then((vocabularyObj) => addVocabForm(user.uid, vocabularyObj));
     }
-
     // TODO: CLICK EVENT FOR VIEW VOCAB DETAILS
-    //      if (e.target.id.includes('view-vocab-btn')) {
-    //       const [, firebaseKey] = e.target.id.split('--');
+    if (e.target.id.includes('view-vocab-btn')) {
+      const [, firebaseKey] = e.target.id.split('--');
 
-    //       getVocabDetails(firebaseKey).then(viewVocab);
-  //     }
+      VocabDetails(firebaseKey).then(viewVocab);
+    }
   });
 };
 
