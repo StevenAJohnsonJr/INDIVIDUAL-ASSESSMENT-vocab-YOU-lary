@@ -1,0 +1,75 @@
+{
+    "-MiBsBKGWFEU-yluJkL-": {
+      "vocab_id": "-MiBt86VzkC-EGmJnxjm",
+      "firebaseKey": "-MiBsBKGWFEU-yluJkL-",
+      "vocabWord": "var",
+      "Definition": "This is the most common way to create a variable in JavaScript",
+      "uid": "",
+      "tech": "JavaScript"
+    },
+    "-MiBsknNSQ6aBG1-2lQS": {
+      "vocab_id": "-MiBsfuTafbEQ7eAULxV",
+      "firebaseKey": "-MiBsknNSQ6aBG1-2lQS",
+      "vocabWord": "function",
+      "Definition": "This keyword allows us to define our own functions in JavaScript.",
+      "uid": "",
+      "tech": "JavaScript"
+    },
+    "-MiBuCve4-r_H-RLUOh2": {
+      "vocab_id": "-MiBtwf1BwN9pGavQeR3",
+      "firebaseKey": "-MiBuCve4-r_H-RLUOh2",
+      "vocabWord": "Conditional",
+      "Definition": " A conditional statement is of the if-then format, and allows an application to decide between one or more courses of action, based on whether a particular condition is true. Conditional statements use what is called boolean logic to determine what to do. Boolean logic is based on looking at if a statement is true, or if it is false. We use this all the time in our everyday world. “If it is raining, take an umbrella,” is an example of a conditional statement",
+      "uid": "",
+      "tech": "JavaScript"
+    },
+    "-MiBuU13EaKmGOMjJF-X": {
+      "vocab_id": "-MiBuOfHv9NCKB_cneij",
+      "firebaseKey": "-MiBuU13EaKmGOMjJF-X",
+      "vocabWord": "Loop",
+      "Definition": "A loop is a structure in code where you perform the same action or actions multiple times in a row",
+      "uid": "",
+      "tech": "JavaScript"
+    },
+    "-MiBuqoYjFwbXyA8oiiw": {
+      "vocab_id": "-MiBulenBnY8by9Xn7q1",
+      "firebaseKey": "-MiBuqoYjFwbXyA8oiiw",
+      "vocabWord": "Object",
+      "Definition": "An object is the basic data structure in JavaScript. Objects have properties, also known as keys, to which are assigned values. The value can be a number, a string, an array, a function, or even another object! This allows you to build complex, but easy to use data structures.",
+      "uid": "",
+      "tech": "JavaScript"
+    },
+    "-MiBvEFJTI3FmTzDu_3V": {
+      "vocab_id": "-MiBv9_aOEJQWoobjz_U",
+      "firebaseKey": "-MiBvEFJTI3FmTzDu_3V",
+      "vocabWord": "Reassignment",
+      "Definition": "JavaScript with var and let declaration allows you to reassign a variable indefinitely. With const declarations you effectively declare an immutable value for strings, integers, booleans, and an object that cannot be reassigned (but you can still modify it through its methods)",
+      "uid": "",
+      "tech": "JavaScript"
+    },
+    "-MiBvW8ME_DvO2GzwQ8D": {
+      "vocab_id": "-MiBvQiWr6XNwNa1i3-0",
+      "firebaseKey": "-MiBvW8ME_DvO2GzwQ8D",
+      "vocabWord": "Block",
+      "Definition": "In JavaScript a block is delimited curly braces ({}). An if statement contains a block, a for loop contains a block.",
+      "uid": "",
+      "tech": "JavaScript"
+    },
+    "-MiBvf3bIyooE6x4nLLB": {
+      "vocab_id": "-MiBvQiWr6XNwNa1i3-0",
+      "firebaseKey": "-MiBvf3bIyooE6x4nLLB",
+      "vocabWord": "Block Scoping",
+      "Definition": "With Function Scoping, any variable defined in a block is visible and accessible from inside the whole block, but not outside of it.",
+      "uid": "",
+      "tech": "JavaScript"
+    },
+    "-MiBwAF5wOY00AYJm7cR": {
+      "vocab_id": "-MiBw4tCvNZd23yTVDQw",
+      "firebaseKey": "-MiBwAF5wOY00AYJm7cR",
+      "vocabWord": "Callback",
+      "Definition": "A callback is a function that’s invoked when something happens. A click event associated to an element has a callback function that’s invoked when the user clicks the element. A fetch request has a callback that’s called when the resource is downloaded.",
+      "uid": "",
+      "tech": "JavaScript"
+    }
+  }
+  

@@ -1,7 +1,7 @@
 {
   "name": "webpack-5.0-template",
   "version": "1.0.0",
-  "description": "",
+  "Definition": "",
   "main": "public/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
