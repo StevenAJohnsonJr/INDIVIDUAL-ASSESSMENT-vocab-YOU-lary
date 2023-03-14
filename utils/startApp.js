@@ -14,7 +14,7 @@ const startApp = (user) => {
   formEvents(user);
   logoutButton();
   showVocab(user);
-  navBar(user);
+  navBar();
 
   // TODO: Put all vocab cards on the DOM on App load
   getVocab(user.uid).then((vocab) => showVocab(vocab));
